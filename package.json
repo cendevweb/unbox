@@ -2,6 +2,7 @@
   "name": "@makemereach/unbox",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/cendevweb/unbox#readme",
   "main": "./src/index.ts",
   "scripts": {
     "test": "jest --color"

@@ -8,11 +8,13 @@
 ```
 ================================
 
-#### What is and why ?
+#### What is it and why?
 
 This is a simple function that will force the user to **handle the case of reject promise**.
 
 Use for all promise, in most of the case we are not handling this case, and with `unbox` we will have less error and bugs.
+
+This avoids the usage of try-catch everywhere and is intended for a project with advance typing
 
 #### Examples
 
@@ -36,4 +38,6 @@ const multiple = async (promises: Array<Promise<string>>): Promise<string[]> => 
 }
 ```
 
-Don't forget to destructure result for typage.
+Don't forget to destructure the result for typing.
+
+On these examples, if we don't handle and throw result error, data would be of type string | undefined which is not what we want on full type project.
