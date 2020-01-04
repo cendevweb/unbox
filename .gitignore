@@ -1,0 +1,15 @@
+node_modules
+.vscode
+
+coverage
+.nyc_output
+*.log
+
+package-lock.json
+tsconfig.json
+tsconfig.test.json
+tslint.json
+yarn.lock
+
+.DS_Store
+
