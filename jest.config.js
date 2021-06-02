@@ -13,8 +13,7 @@ module.exports = {
   "coveragePathIgnorePatterns": [
     "/node_modules/",
     "/.vscode/",
-    "package.json",
-    "/src/flow/task/*"
+    "package.json"
   ],
   "preset": "ts-jest",
   "collectCoverageFrom": ["src/**/*.ts", "!src/**/index.ts"],
